@@ -1,0 +1,19 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "GPL-3.0",
+    "private": true,
+    "devDependencies": {
+        "copy-webpack-plugin": "^5.0.4",
+        "rimraf": "^3.0.0",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "scripts": {
+        "start": "webpack --watch"
+    },
+    "dependencies": {
+        "webpack-extension-reloader": "^1.1.4"
+    }
+}
